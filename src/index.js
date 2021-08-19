@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import {ProvideAuth} from './Context/AuthProvider'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { ProvideAuth } from "./Context/AuthProvider";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,6 +10,5 @@ ReactDOM.render(
       <App />
     </ProvideAuth>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-

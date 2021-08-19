@@ -1,85 +1,84 @@
 {
-    "colors" : [
-        {
-            "name":"normal",
-            "color":"rgb(213, 216, 220)"
-        },
-        {
-            "name":"fighting",
-            "color":"Firebrick"
-        },
-        {
-            "name":"flying",
-            "color":"SaddleBrown"
-        },
-        {
-            "name":"poison",
-            "color":"Mediumpurple"
-        },
-        {
-            "name":"ground",
-            "color":"BurlyWood"
-        },
-        {
-            "name":"rock",
-            "color":"Peru"
-        },
-        {
-            "name":"bug",
-            "color":"YellowGreen"
-        },
-        {
-            "name":"ghost",
-            "color":"Purple"
-        },
-        {
-            "name":"steel",
-            "color":"LightGrey"
-        },
-        {
-            "name":"fire",
-            "color":"Crimson"
-        },
-        {
-            "name":"water",
-            "color":"RoyalBlue"
-        },
-        {
-            "name":"grass",
-            "color":"Lime"
-        },
-        {
-            "name":"electric",
-            "color":"Yellow"
-        },
-        {
-            "name":"psychic",
-            "color":"Violet"
-        },
-        {
-            "name":"ice",
-            "color":"AquaMarine"
-        },
-        {
-            "name":"dragon",
-            "color":"MediumSlateBlue"
-        },
-        {
-            "name":"dark",
-            "color":"DarkSlateGray"
-        },
-        {
-            "name":"fairy",
-            "color":"rgb(255, 136, 238)"
-        },
-        {
-            "name":"unknown",
-            "color":"Gainsboro"
-        },
-        {
-            "name":"shadow",
-            "color":"SlateGray"
-        }
-        
-    ]
+  "colors": [
+    {
+      "name": "normal",
+      "color": "rgb(213, 216, 220)"
+    },
+    {
+      "name": "fighting",
+      "color": "Firebrick"
+    },
+    {
+      "name": "flying",
+      "color": "SaddleBrown"
+    },
+    {
+      "name": "poison",
+      "color": "Mediumpurple"
+    },
+    {
+      "name": "ground",
+      "color": "BurlyWood"
+    },
+    {
+      "name": "rock",
+      "color": "Peru"
+    },
+    {
+      "name": "bug",
+      "color": "YellowGreen"
+    },
+    {
+      "name": "ghost",
+      "color": "Purple"
+    },
+    {
+      "name": "steel",
+      "color": "LightGrey"
+    },
+    {
+      "name": "fire",
+      "color": "Crimson"
+    },
+    {
+      "name": "water",
+      "color": "RoyalBlue"
+    },
+    {
+      "name": "grass",
+      "color": "Lime"
+    },
+    {
+      "name": "electric",
+      "color": "Yellow"
+    },
+    {
+      "name": "psychic",
+      "color": "Violet"
+    },
+    {
+      "name": "ice",
+      "color": "AquaMarine"
+    },
+    {
+      "name": "dragon",
+      "color": "MediumSlateBlue"
+    },
+    {
+      "name": "dark",
+      "color": "DarkSlateGray"
+    },
+    {
+      "name": "fairy",
+      "color": "rgb(255, 136, 238)"
+    },
+    {
+      "name": "unknown",
+      "color": "Gainsboro"
+    },
+    {
+      "name": "shadow",
+      "color": "SlateGray"
+    }
+  ]
 }

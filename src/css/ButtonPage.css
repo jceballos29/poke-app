@@ -1,38 +1,37 @@
 .ButtonPage {
-    width: 100%;
-    height: 100%;
-    display: grid; 
-    justify-self: center;
-    align-self: center;
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "Previous Page Next"; 
-    grid-area: ButtonPage; 
-  }
-  .Previous { 
-    width: 50%;
-      grid-area: Previous; 
-      justify-self: start;
-      align-self: end;      
-      text-transform: uppercase;
-      font-weight: bold;
-      cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "Previous Page Next";
+  grid-area: ButtonPage;
 }
-  .Next { 
-    width: 50%;
-      grid-area: Next; 
-      justify-self: end;
-      align-self: end; 
-      text-transform: uppercase;
-      font-weight: bold;
-      cursor: pointer;
+.Previous {
+  width: 50%;
+  grid-area: Previous;
+  justify-self: start;
+  align-self: end;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
 }
-    
-  .Page { 
-      grid-area: Page; 
-      justify-self: center;
-      align-self: end; 
-      font-size: 20px;
-    }
+.Next {
+  width: 50%;
+  grid-area: Next;
+  justify-self: end;
+  align-self: end;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Page {
+  grid-area: Page;
+  justify-self: center;
+  align-self: end;
+  font-size: 20px;
+}

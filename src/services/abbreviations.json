@@ -1,10 +1,10 @@
 {
-    "abb": [
-        {"name":"hp", "abb":"hp "},
-        {"name":"attack", "abb":"att"},
-        {"name":"defense", "abb":"def"},
-        {"name":"special-attack", "abb":"sat"},
-        {"name":"special-defense", "abb":"sdf"},
-        {"name":"speed", "abb":"spd"}
-    ]
+  "abb": [
+    { "name": "hp", "abb": "hp " },
+    { "name": "attack", "abb": "att" },
+    { "name": "defense", "abb": "def" },
+    { "name": "special-attack", "abb": "sat" },
+    { "name": "special-defense", "abb": "sdf" },
+    { "name": "speed", "abb": "spd" }
+  ]
 }

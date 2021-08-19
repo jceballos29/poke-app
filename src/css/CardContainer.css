@@ -1,14 +1,14 @@
 .CardContainer {
-    width: 100%;
-    height: 100%;
-    justify-self: center;
-    align-self: center;
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      ". ."
-      ". ."; 
-    grid-area: CardContainer; 
-  }
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    ". .";
+  grid-area: CardContainer;
+}
