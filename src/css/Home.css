@@ -1,0 +1,15 @@
+  .Pokedex {
+    width: 100%;
+    height: 100%;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1.6fr 0.4fr; 
+    grid-template-areas: 
+      "CardContainer"
+      "ButtonPage"; 
+    justify-self: center; 
+    align-self: center; 
+    grid-area: Content; 
+    width: 90%; 
+    height: 90%; 
+  }

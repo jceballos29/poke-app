@@ -1,0 +1,12 @@
+.Type{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px 6px;
+    margin: 0px 4px;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+}

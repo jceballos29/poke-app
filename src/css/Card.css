@@ -1,0 +1,104 @@
+.Card {
+    width: 90%;
+    height: 95%;
+    justify-self: center;
+    align-self: center;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 0px 0px; 
+    grid-template-areas:
+      "CardHeader"
+      "CardContent";
+    cursor: pointer;
+    background-color: #ffebee;  
+  }
+  
+  .CardHeader {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.4fr 0.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "CardName"
+      "CardTypes";
+    grid-area: CardHeader;
+    
+
+  }
+  
+  .CardName { 
+      grid-area: CardName; 
+      text-transform: uppercase;
+      text-align: center;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+
+    }
+
+    .CardName h1 {
+        opacity: 1;
+    }
+  
+  .CardTypes { 
+      grid-area: CardTypes; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  .CardContent {
+      width: 100%;
+      height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "CardImage CardStats";
+    grid-area: CardContent;
+  }
+  
+  .CardImage { 
+    width: 90%;
+    height: 90%;     
+    justify-self: center;
+    align-self: start;
+    grid-area: CardImage; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.CardImage img {
+    width: 60%;
+}
+  
+  .CardStats { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."
+      "."
+      "."
+      "."
+      "."
+      "."; 
+    justify-self: center; 
+    align-self: center; 
+    grid-area: CardStats; 
+    width: 100%; 
+    height: 100%; 
+
+    }
+  
+    .Card:hover{
+      transform: scale(1.01)
+    }
