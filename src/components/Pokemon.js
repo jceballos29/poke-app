@@ -58,7 +58,7 @@ function Pokemon() {
 
     if (local.region && local.area) {
       return (
-        <div>
+        <div className="locate">
           <span>
             <b>Region: </b>
             {local.region}
@@ -71,9 +71,11 @@ function Pokemon() {
       );
     } else if (local.area) {
       return (
-        <div>
-          <b>Area: </b>
-          {local.area}
+        <div className="locate">
+          <span>
+            <b>Area: </b>
+            {local.area}
+          </span>
         </div>
       );
     }
@@ -96,11 +98,7 @@ function Pokemon() {
       );
       setStats(
         pokemon.stats.map((s, index) => (
-          <Stat
-            key={index}
-            baseStat={s.base_stat}
-            name={s.stat.name}
-          />
+          <Stat key={index} baseStat={s.base_stat} name={s.stat.name} />
         ))
       );
       setOrder(pokemon.order);
