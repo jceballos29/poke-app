@@ -6,15 +6,14 @@ import '../css/SignIn.css'
 
 function SingIn() {
 
-    const prueba = useAuth()
+    const auth = useAuth()
 
     const history = useHistory();
 
     const { register, handleSubmit} = useForm();
     const onSubmit = data => {
-        prueba.signIn(data)
+        auth.signIn(data)
         history.push('/pokedex')
-        
     }
 
 

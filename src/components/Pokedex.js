@@ -14,6 +14,7 @@ function Pokedex() {
     const [name, setName] = useState('Ash')
     const [gender, setGender] = useState('male')
 
+
     useEffect(() => {
         const getTypes = async () => {
             axios.get('https://pokeapi.co/api/v2/type')
@@ -27,12 +28,13 @@ function Pokedex() {
         if(user){
             setName(user.name);
             setGender(user.gender)
+
         }
     },[user])
 
     return (
         <div className="PokeContainer">
-            <TrainerCard gender={gender} user={name}/>
+            <TrainerCard gender={gender} user={name} id={Math.floor(Math.random() * (90000 - 10000) + 10000)}/>
             <SearchBar types={types}/>
             <Container />
         </div>

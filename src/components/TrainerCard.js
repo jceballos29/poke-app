@@ -7,7 +7,7 @@ import male from '../img/male.png'
 import PorfileItem from './PorfileItem';
 
 
-function TrainerCard({gender, user}) {
+function TrainerCard({gender, user, id}) {
 
     const [img, setImg] = useState(null);
     const history = useHistory();
@@ -29,7 +29,7 @@ function TrainerCard({gender, user}) {
                     <img alt="Avatar" src={img}/>
                 </div>
                 <div className="Profile">
-                    <PorfileItem name="ID" value={123456}/>
+                    <PorfileItem name="ID" value={id}/>
                     <PorfileItem name="USER" value={user}/>
                     <PorfileItem name="FAV" value={0}/>
                 </div>
