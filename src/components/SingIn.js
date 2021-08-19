@@ -22,20 +22,14 @@ function SingIn() {
             <h1>The adventure is about to start.</h1>
             
             <form onSubmit={handleSubmit(onSubmit)}>
-
                     <label>What's your name?</label>
                     <input type="text" placeholder="name" {...register("name", {required: true})} />
-
-                
-
                     <label>Choose the gender of your avatar</label>
                     <select {...register("gender", { required: true })}>
                     <option value="">Select...</option>
                         <option value="male">male</option>
                         <option value="female">female</option>
                     </select>
-
-
                 <button>Go!</button>
             </form>
         </div>
